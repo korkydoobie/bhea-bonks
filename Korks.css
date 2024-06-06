@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+
+
+#header-div img {
+    width: 100%; 
+    height: 300px; 
+    border: 2px solid black;
+    box-sizing: border-box; 
+}
+
+#header-div {
+    margin-top: 10px;
+}
+
+#footer-div{
+        background-color: white;
+        border: 2px solid black;
+        text-align: center;
+        padding: 20px;
+        margin-top: 10px;
+}
+
+#footer-div p{
+    color: black;
+    text-align: center;
+}
+
+#footer-div p:hover{
+    color: purple;
+}
+
+#main-div {
+    margin-top: 10px;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+#logo-div img {
+    max-height: 70px;
+    padding-left: 20px;
+    width: auto;
+    height: auto;
+}
+
+#navlinks-div a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    margin-right: 60px;
+}
+
+#navlinks-div a:hover{
+    color: purple;
+}
+
+#sidebar-div{
+    width: 40%;
+    min-height: 400px;
+    background-color: white;
+    border: 2px solid black;
+    float: left;
+    text-align: center;
+    height: 400px;
+    line-height: 50px;
+}
+
+#sidebar-div a{
+    text-decoration: none;
+    color: black;
+}
+
+#sidebar-div a:hover{
+    color: purple;
+}
+
+.box {
+    background-color: white;
+    border: 2px solid black;
+    width: 35%;
+    height: 400px;
+    margin-left: 10px;
+
+}
+
+.box img {
+    max-width: 100%; 
+    max-height: 100%;
+    height: 80%; 
+}
+
+.box p{
+    color: black;
+    text-align: center;
+    margin-left: 2px;
+}
+
+#footer-div img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 0px;
+}
+
+#footer-div a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    margin-right: 60px;
+}
